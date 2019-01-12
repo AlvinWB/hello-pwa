@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="some description to your app" />
+  <meta name="keywords" content="(this), (this, too), (and that)" />
+  <meta name="author" content="irwanphan(name or organization)" />
+  <meta name="theme-color" content="#fafafa" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/favicon.ico">
+
+  <!-- manifest -->
+  <link rel="manifest" type="text/css" href="manifest.json">
+
+  <!-- styles -->
+  <link href="assets/main.css" rel="stylesheet">
+  
+  <!-- fonts & icons -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <!-- content -->
+  <span>Hello there</span>  
+
+  <!-- end content -->
+
+  <script type="text/javascript">
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      console.log(registrations);
+    });
+  </script>
+</body>
